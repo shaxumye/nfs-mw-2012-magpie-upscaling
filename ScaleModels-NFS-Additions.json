@@ -1,0 +1,46 @@
+[
+  {
+    "name": "NFS FSR",
+    "effects": [
+      {
+        "effect": "FSR_EASU",
+        "scale": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "effect": "FSR_RCAS",
+        "sharpness": 0.65
+      }
+    ]
+  },
+  {
+    "name": "NFS Lanczos",
+    "effects": [
+      {
+        "effect": "Lanczos",
+        "scale": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "effect": "AdaptiveSharpen",
+        "curveHeight": 0.3
+      }
+    ]
+  },
+  {
+    "name": "NFS Linear",
+    "effects": [
+      {
+        "effect": "Linear",
+        "scale": [
+          -1,
+          -1
+        ]
+      }
+    ]
+  }
+]
